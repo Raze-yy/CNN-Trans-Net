@@ -2,9 +2,7 @@
 
 This repository provides PyTorch implementations for predicting excitation-emission matrices (EEMs) of fluorescent materials using hybrid CNN and Transformer models. The model takes incident and emission spectra as input and predicts a full 2D EEM.
 
-<div align="center">
-  <img src="loss_curves_logscale.png" width="600" alt="Loss Curves Example">
-</div>
+
 
 ---
 
@@ -117,3 +115,4 @@ pip install -r requirements.txt
 Input shape: [batch_size, 49, 13]
 Output shape: [batch_size, 41, 49]
 Output is non-negative due to Softplus in the decoder
+
